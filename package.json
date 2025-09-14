@@ -1,0 +1,48 @@
+{
+  "name": "dartapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaO05/DartApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucaO05/DartApp/issues"
+  },
+  "homepage": "https://github.com/LucaO05/DartApp#readme",
+  "description": "",
+  "dependencies": {
+    "@tanstack/react-router": "^1.131.41",
+    "@tanstack/react-start": "^1.131.43",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.5",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "drizzle-kit": "^0.31.4",
+    "prettier": "3.6.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
